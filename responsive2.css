@@ -1,0 +1,14 @@
+@media screen and  (min-width:426px) and  (max-width:768px){
+    .kolxi{
+        position: relative;
+        left: 470px;
+        top: 20px;
+    }
+}
+@media screen and  (min-width:769px) and  (max-width:1024px){
+    .kolxi{
+        position: relative;
+        left: 380px;
+        top: 50px;
+    }
+}

@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+img{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    left: 230px;
+}
+.kolxi{
+    border: white 1px solid;
+    border-radius: 8px;
+    height: 390px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    position: relative;
+    left: 400px;
+    top: 100px;
+}
+.input1{
+    width: 270px;
+    height: 30px;
+    background: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+.input2{
+    width: 270px;
+    height: 30px;
+    background: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+.input3{
+    width: 545px;
+    height: 80px;
+    background: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+.input4{
+    background: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    position: relative;
+    top: 10px;
+    height: 90px;
+    left: 20px;
+    width: 545px;
+}
+.input1:focus{outline: none;}
+.input2:focus{outline: none;}
+.input3:focus{outline: none;}
+.input4:focus{outline: none;}
+button{
+    width: 120px;
+    height: 20px;
+    background-color: #2196F3;
+    border: none;
+    cursor: pointer;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Noto Sans Adlam Unjoined', sans-serif;
+    font-family: 'Oswald', sans-serif; 
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Tajawal', sans-serif;
+    font-family: 'Unbounded', cursive;  
+    transition: 0.2s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    position: relative;
+    top: 26px;
+    left: 20px;
+    transition: 1s;
+    border: solid 1px;
+}
+button:hover{
+    transform: scale(1.1, 1.1);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.inputs{
+    width: 600px;
+    height: 20px;
+    position: relative;
+    left: 20px;
+}
